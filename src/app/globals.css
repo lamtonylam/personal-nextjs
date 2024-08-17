@@ -1,0 +1,10 @@
+body {
+    background: #f5efe4;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    padding-top: 50px
+}
+
+a {
+    color: #c00000;
+}
