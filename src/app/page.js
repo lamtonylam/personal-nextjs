@@ -1,13 +1,13 @@
 import styles from "./page.module.css";
 import { IBM_Plex_Mono } from "next/font/google";
 
-const IBMFont = IBM_Plex_Mono({ weight: "200", subsets: ["latin"] });
+const IBMFont = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
     const CustomLink = ({ text, link }) => {
         return (
             <div>
-                <h4>
+                <h4 className={styles.headline}>
                     <a
                         href={link}
                         target="_blank"
@@ -23,8 +23,8 @@ export default function Home() {
 
     return (
         <div className={IBMFont.className}>
-            <h1>Tony Lam</h1>
-            <h3>
+            <h1 className={styles.headline}>Tony Lam</h1>
+            <h3 className={styles.headline}>
                 Computer Science Student at{" "}
                 <a
                     href="https://www.helsinki.fi/en/faculty-science/faculty/computer-science"
