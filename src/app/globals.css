@@ -1,10 +1,16 @@
 body {
     background: #f5efe4;
     font-family: "IBM Plex Mono";
-    text-align: center;
     padding-top: 50px
 }
 
 a {
     color: #c00000;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding-top: 10px;
+    }
 }

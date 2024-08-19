@@ -1,8 +1,8 @@
-import "./globals.css";
+import "../globals.css";
 
 export const metadata = {
-  title: "Tony Lam",
-  description: "Tony Lam - Computer Science Student at University of Helsinki",
+  title: "Tony Lam - Projects",
+  description: "Tony Lam - Projects",
 };
 
 export default function RootLayout({ children }) {

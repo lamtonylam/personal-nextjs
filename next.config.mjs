@@ -2,7 +2,7 @@
 const nextConfig = {
     distDir: "build",
     output: "export",
-    basePath: "/u/tonylam",
+    basePath: process.env.BASE_PATH || "",
 };
 
 export default nextConfig;

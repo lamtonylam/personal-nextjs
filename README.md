@@ -26,6 +26,7 @@ The repository includes `deploy.sh` file for easy deployment to Uni of Helsinki 
 
 -   Create `.env` file
 -   Create env variable USERNAME:"YOUR-USERNAME"
+-   Create env variable BASE_PATH:"YOUR-BASE-PATH", for university config it is `/u/username`
 -   Make script executable
 
 ```bash
