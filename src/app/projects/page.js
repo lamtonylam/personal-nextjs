@@ -4,14 +4,21 @@ import { IBM_Plex_Mono } from "next/font/google";
 const IBMFont = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
-  const Project = ({ name, desc, link }) => {
+  const Project = ({ name, desc, link, links }) => {
     return (
       <div className={styles.projectitem}>
         <b>
           <p>{name}</p>
         </b>
         <p>{desc}</p>
-        <a href={link}>{link}</a>
+        {links.map((link, index) => (
+          <>
+            <a key={index} href={link}>
+              {link}
+            </a>
+            <br></br>
+          </>
+        ))}
       </div>
     );
   };
@@ -27,22 +34,22 @@ export default function Home() {
         <Project
           name="Mekuma tracker"
           desc="Website that tracks mexican oven sausage availability across Unicafe's restaurants"
-          link="https://makkara.fly.dev"
+          links={["https://makkara.fly.dev", "https://makkara.fly.dev/api"]}
         />
         <Project
           name="Mekumabot"
           desc="Telegram bot that tracks mexican oven sausage availability across Unicafe's restaurants "
-          link="https://t.me/mekumabot"
+          links={["https://t.me/mekumabot"]}
         />
         <Project
           name="HaalarimerkkiDEX"
           desc="Databases and web programming coursework"
-          link="https://haalarimerkkidex.fly.dev/"
+          links={["https://haalarimerkkidex.fly.dev"]}
         />
         <Project
           name="Kumpulabikes"
           desc="Kumpula citybike availability tracker"
-          link="https://kumpulabikes.fly.dev/"
+          links={["https://kumpulabikes.fly.dev"]}
         />
       </div>
     </div>
