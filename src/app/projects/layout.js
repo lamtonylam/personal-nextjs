@@ -1,4 +1,5 @@
-import "../globals.css";
+import "../../styles/global.css"
+
 import Analytics from "../../components/analytics";
 
 export const metadata = {
