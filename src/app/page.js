@@ -16,11 +16,21 @@ export default function Home() {
     );
   };
 
+  const InlineLink = ({ text, link }) => {
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer" role="link">
+        {text}
+      </a>
+    );
+  };
+
+  const baseurl = process.env.BASE_PATH || "";
+
   return (
     <div className={styles.container}>
       <div className={`${IBMFont.className} ${styles.leftitem}`}>
         <u>Home</u>
-        <a href={`${process.env.BASE_PATH}/projects`}>Projects</a>
+        <a href={`${baseurl}/projects`}>Projects</a>
       </div>
       <div className={`${IBMFont.className} ${styles.rightitem}`}>
         <h1 className={styles.headline}>Tony Lam</h1>
@@ -36,6 +46,19 @@ export default function Home() {
             University of Helsinki
           </a>
         </h3>
+
+        <h4 className={styles.headline}>
+          I'm passionate about making an impact with tech. <br />
+          Previously worked at{" "}
+          <InlineLink text={"Nosto"} link={"https://www.nosto.com/"} />,{" "}
+          <InlineLink
+            text={"Circles Consulting"}
+            link={"https://circles.fi/"}
+          />
+          , <InlineLink text={"Analyse2"} link={"https://analyse2.com"} />,{" "}
+          <InlineLink text={"Inrego"} link={"https://inrego.fi"} />.
+        </h4>
+
         <div className={styles.links}>
           <CustomLink
             text={"LinkedIn"}

@@ -13,6 +13,11 @@ const Analytics = () => (
         referrerPolicy="no-referrer-when-downgrade"
       />
     </noscript>
+    <script
+      defer
+      src="https://umami.tonylam.iki.fi/script.js"
+      data-website-id="fb46e08b-d710-443a-b8c2-dd28ccd99c31"
+    ></script>
   </>
 );
 
