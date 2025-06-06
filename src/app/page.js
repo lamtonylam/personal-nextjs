@@ -45,6 +45,19 @@ export default function Home() {
           >
             University of Helsinki
           </a>
+      
+        </h3>
+          <h3 className={styles.headline}>
+          Developer Trainee at
+          <br />
+          <a
+            href="https://jaysolutions.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="link"
+          >
+            Jay Solutions
+          </a>
         </h3>
 
         <h4 className={styles.headline}>
