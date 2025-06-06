@@ -45,11 +45,6 @@ export default function Home() {
           desc="Scraping alko.fi prices API <br> <small> not publicly hosted </small>"
           links={["https://github.com/lamtonylam/alkoscraper"]}
         />
-        {/* <Project
-          name="Jalluindeksi"
-          desc="Tracks the price of Jaloviina, which is utilized as a budjeting measure for TKO-äly ry's events"
-          links={["https://jallu.tonylam.iki.fi"]}
-        /> */}
         <Project
           name="Mekuma tracker & telegram bot"
           desc="Website & Telegram bot that tracks mexican oven sausage availability across Unicafe's restaurants"
@@ -63,11 +58,6 @@ export default function Home() {
           name="HaalarimerkkiDEX"
           desc="Databases and web programming coursework"
           links={["https://haalarimerkkidex.fly.dev"]}
-        />
-        <Project
-          name="Kumpulabikes"
-          desc="Kumpula citybike availability tracker"
-          links={["https://kumpulabikes.fly.dev"]}
         />
       </div>
     </div>
