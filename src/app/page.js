@@ -45,10 +45,9 @@ export default function Home() {
           >
             University of Helsinki
           </a>
-      
         </h3>
-          <h3 className={styles.headline}>
-          Developer Trainee at
+        <h3 className={styles.headline}>
+          Software Developer Trainee at
           <br />
           <a
             href="https://jaysolutions.com"
@@ -62,14 +61,14 @@ export default function Home() {
 
         <h4 className={styles.headline}>
           I'm passionate about making an impact with tech. <br />
-          Previously worked at{" "}
+          {/* Previously worked at{" "}
           <InlineLink text={"Nosto"} link={"https://www.nosto.com/"} />,{" "}
           <InlineLink
             text={"Circles Consulting"}
             link={"https://circles.fi/"}
           />
           , <InlineLink text={"Analyse2"} link={"https://analyse2.com"} />,{" "}
-          <InlineLink text={"Inrego"} link={"https://inrego.fi"} />.
+          <InlineLink text={"Inrego"} link={"https://inrego.fi"} />. */}
         </h4>
 
         <div className={styles.links}>

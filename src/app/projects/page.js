@@ -30,6 +30,11 @@ export default function Home() {
       <div className={`${IBMFont.className} ${styles.rightitem}`}>
         <h1 className={styles.headline}>Projects</h1>{" "}
         <Project
+          name="Osakuntabaari calendar"
+          desc="Hämis canteen menu into ICS file to import into your calendar"
+          links={["https://hamis.ynot.fi/"]}
+        />
+        <Project
           name="TKT-hakutilastoja"
           desc="Interactive website that visualizes historical admission point requirements for Computer Science programs across Finnish universities.
         "
@@ -38,7 +43,7 @@ export default function Home() {
         <Project
           name="Unicafevoting"
           desc="Voting on Unicafe restaurants for lunchgroups with actionable insights"
-          links={["https://unari.fi"]}
+          links={["https://github.com/lamtonylam/unicafevoting"]}
         />
         <Project
           name="Alkoscraper"
