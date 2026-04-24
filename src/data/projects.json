@@ -1,0 +1,48 @@
+[
+  {
+    "id": "osakuntabaari-calendar",
+    "name": "Osakuntabaari calendar",
+    "desc": "Hämis canteen menu into ICS file to import into your calendar",
+    "links": ["https://hamis.ynot.fi/"]
+  },
+  {
+    "id": "toiveruoka",
+    "name": "Toiveruoka",
+    "desc": "Search for favorite dishes across Unicafe restaurant network",
+    "links": ["https://unari.ynot.fi/"]
+  },
+  {
+    "id": "airport-taxi",
+    "name": "Helsinki airport taxi fare calculator",
+    "desc": "Find the cheapest taxi operator in Helsinki airport taxi stand",
+    "links": ["https://taxi.ynot.fi/"]
+  },
+  {
+    "id": "tkt-hakutilastoja",
+    "name": "TKT-hakutilastoja",
+    "desc": "Interactive website that visualizes historical admission point requirements for Computer Science programs across Finnish universities.",
+    "links": ["https://yliopistoon.vercel.app"]
+  },
+  {
+    "id": "alkoscraper",
+    "name": "Alkoscraper",
+    "desc": "Scraping alko.fi prices API <br /> <small>not publicly hosted</small>",
+    "links": ["https://github.com/lamtonylam/alkoscraper"]
+  },
+  {
+    "id": "mekuma-tracker",
+    "name": "Mekuma tracker & telegram bot",
+    "desc": "Website & Telegram bot that tracks mexican oven sausage availability across Unicafe's restaurants",
+    "links": [
+      "https://makkara.fly.dev",
+      "https://makkara.fly.dev/api",
+      "https://t.me/mekumabot"
+    ]
+  },
+  {
+    "id": "haalarimerkki-dex",
+    "name": "HaalarimerkkiDEX",
+    "desc": "Databases and web programming coursework",
+    "links": ["https://haalarimerkkidex.fly.dev"]
+  }
+]
