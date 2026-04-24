@@ -32,9 +32,14 @@ The repository includes `deploy.sh` file for easy deployment to Uni of Helsinki 
 
 First step is to install sshpass
 
+Ubuntu/Debian
 ```bash
 sudo apt update
 sudo apt install sshpass
+```
+MacOS
+```bash
+brew install hudochenkov/sshpass/sshpass
 ```
 
 - Create `.env` file
