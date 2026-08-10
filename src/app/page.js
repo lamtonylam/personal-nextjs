@@ -47,15 +47,15 @@ export default function Home() {
           </a>
         </h3>
         <h3 className={styles.headline}>
-          Software Developer Trainee at
+          Software Developer at
           <br />
           <a
-            href="https://jaysolutions.com"
+            href="https://toska.dev"
             target="_blank"
             rel="noopener noreferrer"
             role="link"
           >
-            Jay Solutions
+            Toska
           </a>
         </h3>
 
