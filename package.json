@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "oxlint --nextjs-plugin",
+    "lint:fix": "oxlint --nextjs-plugin --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "14.2.5",
@@ -14,7 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5"
+    "oxlint": "^1.83.0",
+    "prettier": "^3.9.6"
   }
 }
