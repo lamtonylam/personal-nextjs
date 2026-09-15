@@ -31,6 +31,14 @@ export default function Home() {
       <div className={`${IBMFont.className} ${styles.leftitem}`}>
         <u>Home</u>
         <a href={`${baseurl}/projects`}>Projects</a>
+        <a
+          href={`https://blog.ynot.fi`}
+          target="_blank"
+          rel="noopener noreferrer"
+          role="link"
+        >
+          Blog
+        </a>
       </div>
       <div className={`${IBMFont.className} ${styles.rightitem}`}>
         <h1 className={styles.headline}>Tony Lam</h1>
