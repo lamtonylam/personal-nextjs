@@ -1,3 +1,4 @@
+import Sidebar from "../components/sidebar";
 import styles from "./page.module.css";
 import { IBM_Plex_Mono } from "next/font/google";
 
@@ -28,18 +29,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <div className={`${IBMFont.className} ${styles.leftitem}`}>
-        <u>Home</u>
-        <a href={`${baseurl}/projects`}>Projects</a>
-        <a
-          href={`https://blog.ynot.fi`}
-          target="_blank"
-          rel="noopener noreferrer"
-          role="link"
-        >
-          Blog
-        </a>
-      </div>
+      <Sidebar baseurl={baseurl} active="home" />
       <div className={`${IBMFont.className} ${styles.rightitem}`}>
         <h1 className={styles.headline}>Tony Lam</h1>
         <h3 className={styles.headline}>

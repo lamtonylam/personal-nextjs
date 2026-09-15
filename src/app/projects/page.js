@@ -1,3 +1,4 @@
+import Sidebar from "@/components/sidebar";
 import styles from "./page.module.css";
 import { IBM_Plex_Mono } from "next/font/google";
 import projects from "@/data/projects.json";
@@ -26,10 +27,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <div className={`${IBMFont.className} ${styles.leftitem}`}>
-        <a href={`${baseurl}/`}>Home</a>
-        <u>Projects</u>
-      </div>
+      <Sidebar baseurl={baseurl} active="projects" />
       <div className={`${IBMFont.className} ${styles.rightitem}`}>
         <h1 className={styles.headline}>Projects</h1>{" "}
         {projects.map((project) => (
