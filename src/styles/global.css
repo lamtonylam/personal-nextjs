@@ -4,6 +4,10 @@ body {
     padding-top: 50px
 }
 
+html {
+    overflow-y: scroll;
+}
+
 a {
     color: #c00000;
 }
